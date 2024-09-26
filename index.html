@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box"> assets\images\ProfilePhoto.jpg
+          <img src=".\assets\images\ProfilePhoto.jpg" alt="Navya Yadagiri" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Navya Yadagiri">Navya Yadagiri</h1>
+
+          <p class="title">Data Enthusiast</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nyadag2@gmail.com" class="contact-link">nyadag2@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (224) 622-1429</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Austin, Texas, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/NavyaYadagiri" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://public.tableau.com/app/profile/nyadag2/vizzes" class="social-link">
+              <ion-icon name="logo-tableau"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Portfolio</button>
+          </li>
+             
+          <!-- <li> href = "assets/Navya_Yadagiri_ATS.pdf"  -->
+            <button href="#resume" target="resume-frame" class="navbar-link active" data-nav-link>Resume</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+      <article id="about" class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            
+            👋🏽 Hi Everyone! I'm a curious data enthusiast and passionate about leveraging data to empower organizations in tackling significant and complex challenges
+            , facilitating data-driven decision-making through the extraction of valuable insights from extensive raw data. Having gained prior experience in both entertainment 
+            and consulting firms, I've had the chance to collaborate, work, and lead diverse functional teams. This has enabled me to spearhead the creation and delivery of 
+            high-quality solutions and results.
+            </p>
+            <p>
+            Passionate about data sciences and analytics, My extensive experience has been shaped by impactful roles as a Data Scientist II and Decision Scientist at Sling TV and 
+            Mu Sigma, providing me with a broad and comprehensive skill set in the field. Throughout my career, I had the privilege of collaborating, working and navigating diverse 
+            sectors including Telecommunications, Healthcare, Information Technology, and Services, enriching my understanding of data analytics across industries.
+            </p>
+    
+            <p>
+              💻I am currently exploring new opportunities and am open to exciting career prospects. Feel free to connect with me for potential collaborations or job opportunities. 
+              I look forward to discussing how my skills and experiences can contribute to your team.
+            </p>
+        </section>
+
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section id="certifications" class="testimonials">
+
+          <h3 class="h3 testimonials-title">Certifications</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+  
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/AWS.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+  
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AWS Certified Cloud Practisioner</h4>
+  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Earning this certification provided me with a solid understanding of IT services and their applications within the AWS Cloud. I gained cloud fluency and foundational AWS knowledge, enabling me to identify essential AWS services necessary for setting up and managing AWS-focused projects.
+                  </p>
+                </div>
+  
+              </div>
+            </li>
+  
+  
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+  
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Databricks.png" alt="Generative AI Fundamentals" width="60" data-testimonials-avatar>
+                </figure>
+  
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Generative AI Fundamentals</h4>
+  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    This Databricks certification provided comprehensive knowledge on the essentials of data engineering with Databricks, covering key topics such as ETL processes, data pipelines, data lakes, and the use of Databricks tools for data transformation and analytics. The course also emphasized best practices for optimizing and managing data workflows in a scalable and efficient manner.
+                      
+                  </p>
+                </div>
+  
+              </div>
+            </li>
+  
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+  
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Alteryx Foundational.png" alt="Alteryx Foundational Micro-Credential" width="60" data-testimonials-avatar>
+                </figure>
+  
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Alteryx Foundational Micro-Credential
+                </h4>
+  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    This micro-credential provided me with a foundational understanding of data analytics concepts and the key functionalities of Alteryx Designer. I learned to identify various data types and formats and became familiar with the most commonly used tools and their functionalities within Alteryx Designer.
+                      
+                  </p>
+                </div>
+  
+              </div>
+            </li>
+  
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+  
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Alteryx.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+  
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Alteryx Designer Core Micro-Credential</h4>
+  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    This certification provided me with an in-depth understanding of the Alteryx Designer environment, including navigating the user interface and utilizing Designer resources. I learned to identify various file formats, share and export workflows, and optimize them for better performance. This micro-certification is part of a series that, when combined, leads to the full Alteryx Designer Core Certification.
+                  </p>
+                </div>
+  
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Tableau.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Tableau Desktop Specialist</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The Tableau Desktop Specialist certification provided foundational knowledge in data visualization using Tableau. It covered essential skills such as connecting to and preparing data, exploring and analyzing data, and sharing insights through interactive dashboards. The course also emphasized the practical application of these skills to create impactful visualizations for data-driven decision-making.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Hackerrank.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Python Certificate</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The Python certification covered essential topics such as scalar types, operators and control flow, strings, collections and iteration, modularity, objects and types, and classes. It tested my knowledge and proficiency in these areas, ensuring a comprehensive understanding of Python programming fundamentals.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Hackerrank.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>SQL (Advanced) Certificate</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The SQL Advanced Certificate provided in-depth knowledge and tested my skills in query optimization, data modeling, indexing, window functions, and pivots in SQL. This certification ensured proficiency in writing efficient and optimized SQL queries, designing robust data models, and utilizing advanced SQL functions for complex data manipulation and analysis.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Hackerrank.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>SQL Certificate</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The SQL certification covered and tested my knowledge in fundamental and advanced SQL topics. I learned about and was evaluated on query optimization, data modeling, indexing, window functions, and pivots. Additionally, the certification included simple queries, understanding relationships, and using aggregators effectively.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button> 
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <!-- <img src="./assets/images/icon-quote.svg" alt="quote icon"> -->
+            </div> 
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+              <div data-modal-text>
+                <p style="text-align: justify;">
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div> 
+
+            </div> 
+
+          </section>
+
+        </div> 
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME- Experience  data-page="experience"
+      -->
+
+      <article class="experience" data-page="experience">
+
+        <section class="timeline" class="experience">
+
+          <header>
+            <h2 class="h2 article-title">Experience</h2>
+          </header>
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University Of Illinois at Chicago</h4>
+
+              <span>January 2021 — December 2022</span>
+
+              <p class="timeline-text">
+                Coursework: Applied Algorithms, Advanced Database Concepts, Data Mining, Deep Learning, Statistics, Data Visualization, Database Design
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Amrita Vishwa VidyaPeetham</h4>
+
+              <span>July 2014 — May 2018</span>
+
+              <p class="timeline-text">
+                Coursework: Data Structures, Design and Analysis of Algorithms, Data Management, Big Data Analysis, Data Warehousing and Data Mining
+              </p>
+
+            </li>
+
+    
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">United Health Group</h4>
+              <span>Data Analyst</span>
+              <span>Oct 2023 — Present</span>
+
+              <p class="timeline-text">
+                I led a project to optimize claims processing workflows, identifying bottlenecks and implementing streamlined processes that increased efficiency by 15% and reduced backlog by 20%. Utilizing Tableau
+                  , I created dashboards and reports that improved claims resolution accuracy by 30% and decreased error rates by 25%. Additionally, I employed advanced SQL techniques for data extraction, transformation, 
+                  and preprocessing, enhancing data accuracy by 20% and reducing manual errors by 15%.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+  
+              <h4 class="h4 timeline-item-title">Sling TV</h4>
+              <span>Data Scientist II</span>
+              <span>January 2023 — August 2023</span>
+
+              <p class="timeline-text">
+                I led Business Intelligence initiatives at sling.com, creating interactive dashboards with Tableau and Adobe Analytics that significantly improved data-driven decision-making and user engagement insights.
+                Utilizing machine learning on AWS Athena clickstream data, I identified critical usage patterns and automated reporting processes, reducing report generation time by 30% and optimizing dashboard performance 
+                by 40%. Additionally, I spearheaded the integration of Adobe Analytics and A/B testing systems, enhancing subscription strategy optimization and reducing data retrieval times by 15% with AWS S3 deployment.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IKS Health</h4>
+              <span>Data Analyst Intern</span>
+              <span>August 2022 — December 2022</span>
+
+
+              <p class="timeline-text">
+                I leveraged generative AI to build a BART-based Seq2Seq model for abstractive summarization of physician-patient conversations, significantly reducing physician documentation time. Implementing a sequence-to-sequence transformer model with RNN architecture, I achieved an 88.13% accuracy in summarization, evaluated through BLEU score, as a key accomplishment in a capstone project.
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Illinois At Chicago</h4>
+              <span>Graduate Assistant</span>
+              <span>January 2021 — December 2022</span>
+
+              <p class="timeline-text">
+                I managed IT administrative services for over 250 faculty and staff in the College of Business Administration, overseeing the SharePoint portal independently. I also created workflows using SharePoint Designer and Microsoft Power Automate to automate the generation of employment offer letters.
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mu Sigma Business Solutions</h4>
+              <span>Decision Scientist</span>
+              <span>January 2021 — December 2022</span>
+              <p class="timeline-text">
+                I managed IT administrative services for over 250 faculty and staff in the College of Business Administration, overseeing the SharePoint portal independently.
+                I also created workflows using SharePoint Designer and Microsoft Power Automate to automate the generation of employment offer letters.
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section id="SkillSet" class="skill" >
+          <div class="skills-card">
+            <header>
+              <h3 class="h3 article-title">Skill Set</h3>
+            </header>
+          </div>
+          
+     
+        </section>
+
+        <ul class="service-list">
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-design.svg
+              " alt="design icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Programming Languages</h4>
+              <ul class="service-item-text">
+                <li>SQL</li>
+                <li>Python (pandas, matplotlib, ggplot, NumPy, SciPy, beautifulsoup)</li>
+                <li>R (rpart, ggplot2, tidyverse, Dplyr, caret, plotly, XGboost)</li>
+              </ul>
+            </div>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Web development</h4>
+              <ul class="service-item-text">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>AngularJS</li>
+                <li>Node.js</li>
+              </ul>
+
+            </div>
+
+          </li>
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Cloud Platforms</h4>
+              <ul class="service-item-text">
+                <li>Amazon Web Services (AWS)</li>
+                <li>Azure</li>
+                <li>Google Cloud</li>
+              
+              </ul>
+
+            </div>
+
+          </li>
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Business Intelligence Tools</h4>
+              <ul class="service-item-text">
+                <li>Tableau</li>
+                <li>Power BI</li>
+                <li>Alteryx</li>
+                <li>JIRA</li>
+                </ul>
+
+            </div>
+
+          </li>
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Data Warehousing and Analytical Tools</h4>
+              <ul class="service-item-text">
+                <li>AWS Athena</li>
+                <li>Snowflake</li>
+                <li>Redshift</li>
+              </ul>
+            </div>
+
+          </li>
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Machine Learning</h4>
+              <ul class="service-item-text">
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Statistical Modelling</li>
+              </ul>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </section>
+    </article>
+
+
+        <!--<section class="skill"> 
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+
+
+
+
+      <!--
+        - #PORTFOLIO data-page="portfolio"
+      -->
+
+      <article id="portfolio" class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <!-- class="projects" -->
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul> -->
+
+        <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>  
+
+             <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>  
+
+          </div>  
+          
+          <ul class="project-list">
+            <li class="project-item  active" >
+              <a href="https://public.tableau.com/views/EnvoyAirlinesAnalysis_17032257651730/EnvoyAirlinesAnalysisProject?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\Navya\vcard-personal-portfolio\assets\images\EnvoyAirlines.png" alt="finance" loading="lazy">
+                </figure>
+
+
+                <h3 class="project-title">Envoy Airlines Analysis</h3>
+
+                <!-- <p class="project-category">Web development</p>  -->
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://public.tableau.com/views/NetflixAnalysis_17030932435080/NetflixAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\Navya\vcard-personal-portfolio\assets\images\Netflix.png" alt="finance" loading="lazy">
+                </figure>
+
+
+                <h3 class="project-title">Netflix Analysis</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://public.tableau.com/views/USAImmigrationOverYears/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\Navya\vcard-personal-portfolio\assets\images\ImmigrationUSA.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Immigration Over USA</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://public.tableau.com/views/CovidVaccinations_17033039101110/COVIDVax?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\Navya\vcard-personal-portfolio\assets\images\COVID_Vaccination.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">COVID Vaccination Coverage Across USA Counties </h3>
+
+                <!-- <p class="project-category">Web design</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/NavyaYadagiri/Text-Summarization-/tree/main/Text-Summarization-">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\Navya\vcard-personal-portfolio\assets\images\TextSummarization.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Text Summarization Using BART Model</h3>
+
+                <!-- <p class="project-category">Applications</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://github.com/NavyaYadagiri/CreditScore-Prediction">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="C:\Users\Navya\vcard-personal-portfolio\assets\images\CreditScore.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Credit Score Prediction</h3>
+
+                <!-- <p class="project-category">Web design</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Game of Two Halves</h3>
+
+                <!-- <p class="project-category">Web design</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item>
+              <a href="https://github.com/NavyaYadagiri/Retention_Modeling">
+                
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Increasing the Rentention Rate </h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">ResumeCV</h2>
+          <iframe id="resume-frame" src="./assets/Navya Yadagiri.pdf" style="width: 100%; height: 1219.2px;"></iframe>
+
+        </header>
+     
+      </article>
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article id="contact" class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+
+    </div>
+  
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
