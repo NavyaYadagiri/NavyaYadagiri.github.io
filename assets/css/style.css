@@ -549,6 +549,11 @@ main {
 .service-item-title { margin-bottom: 7px; }
 
 .service-item-text {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+  gap: 10px;
+  list-style-type: none;
+  padding:0;
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
