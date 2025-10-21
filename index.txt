@@ -1,24 +1,23 @@
-vCard - Personal Portfolio
-
+Navya Yadagiri Portfolio
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Navya Yadagiri
+Navya Yadagiri
+Data Enthusiast
 
 Show Contacts
 
 Email
-richard@example.com
+navya.ranganath@gmail.com
 
 Phone
-+1 (213) 352-2795
++1 (224) 622-1429
 
 Birthday
-June 23, 1982
+Mar 13, 1997
 
 Location
-Sacramento, California, USA
+San Francisco, California, USA
 
 # navbar
 
@@ -32,9 +31,11 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+Hi Everyone! I'm a curious data enthusiast and passionate about leveraging data to empower organizations in tackling significant and complex challenges , facilitating data-driven decision-making through the extraction of valuable insights from extensive raw data. Having gained prior experience in both entertainment and consulting firms, I've had the chance to collaborate, work, and lead diverse functional teams. This has enabled me to spearhead the creation and delivery of high-quality solutions and results.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+Passionate about data sciences and analytics, My extensive experience has been shaped by impactful roles as a Data Scientist II and Decision Scientist at Sling TV and Mu Sigma, providing me with a broad and comprehensive skill set in the field. Throughout my career, I had the privilege of collaborating, working and navigating diverse sectors including Telecommunications, Healthcare, Information Technology, and Services, enriching my understanding of data analytics across industries.
+
+I am currently exploring new opportunities and am open to exciting career prospects. Feel free to connect with me for potential collaborations or job opportunities. I look forward to discussing how my skills and experiences can contribute to your team.
 
 
 ## service
@@ -93,12 +94,12 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
+University school of Illinois At Chicago
+2021 — 2022
 Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
 
-New york academy of art
-2006 — 2007
+Amrita Vishwa VidyaPeetham
+2014 — 2018
 Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
 
 High school of art and design
@@ -107,16 +108,22 @@ Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut
 
 Experience
 
-Creative director
-2015 — Present
+Data Analyst 
+2024-2025
+
+Data Scientist II
+2023
+
+Data Analyst Intern
+2022
 Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
 
-Art director
-2013 — 2015
+Graduate Assistant 
+2021 — 2022
 Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
 
-Web designer
-2010 — 2013
+Decision Scientist 
+2018 — 2020
 Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
 
 My skills
